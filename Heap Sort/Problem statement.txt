@@ -1,0 +1,5 @@
+This program will be very much like the prior two; sort a bunch of integers, read them from standard input, write them to standard output. Heap sort this time, with a few specific things to do.
+
+Use the efficient O(n) method to construct your heap. It's a little more code, but you'll get a chance to really see how the heap works.
+
+Heaps are very important, very useful data structures. It takes O(log n) to insert or remove an element from a heap, and this sort of activity shows up in many other algorithms. There are heap data structures included in the libraries for many programming languages; for this assignment, implement it from scratch (the whole point of the assignments is to really become familiar with how things work, and to get away from cut-and-pasting chunks of code, and hoping that they work).

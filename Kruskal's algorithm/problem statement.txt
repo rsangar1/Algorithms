@@ -1,0 +1,31 @@
+Implement Kruskal's algorithm. Your program should use a disjoint set data structure to manage the sets. The code for this is in the book, and should be easy to convert. Kruskal's algorithm simply sorts the edges based on cost, and then selects one at a time if the two endpoints belong to different sets.
+
+Input to the program will be the number of vertices, the number of edges, and then triples of i, j, cost (one for each edge). Your program should print out the cost of the minimum spanning tree (just one number). Some of the data files will contain a lot of vertices and a lot of edges -- use vectors to store things (don't try to do this with a matrix!).
+
+As a sample: three vertices, with four edges.....
+
+3 4
+0 1 10
+1 2 5
+0 2 6
+1 2 4
+
+There is an edge from vertex 0 to vertex 1, with a cost of 10. Vertex 1 is connected to vertex 2 with a cost of 5... and note that there are two edges between vertices 1 and 2....
+
+The minimum spanning tree consists of an edge from 1 to 2 with a cost of 4, and an edge from 2 to 0 with a cost of 6.
+
+In the minimum spanning tree problem, edges are undirected.
+
+Your program should print out the edges it takes, and then the total cost. Something like
+
+1 2 4
+0 2 6
+Total cost: 10
+
+would be great.
+
+There are three simple test files:
+
+mst_test1.txt -- the example above.
+mst_test2.txt -- similar to above, but with duplicated edges. The total cost should be 2.
+mst_test3.txt -- A slightly larger example. Total cost is 5000000.
